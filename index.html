@@ -4,128 +4,128 @@
  <meta charset="utf-8">
   <title>Institute Information</title>  
   <script>
- 	 function validateForm()
-	 {
-			 var check1=document.forms["new"]["institute"].value;
-			 if (check1==null || check1=="")
-			 {
-				 alert("Institute name must be filled out");
-         return false;
-	     }
-	     if (!check1.match(/^[A-Za-z]/))
-	     {
-		     alert("Numbers not allowed in this field.");
-		     return false;
-       }
-    
-       var check2=document.forms["new"]["status"].value;
-       if (check2==null || check2=="")
-       {
-         alert("Status must be filled out");
-	       return false;
-   	   }
-	     if (!check2.match(/^[A-Za-z]/))
-	     {
-		     alert("Numbers not allowed in this field");
-		     return false;
-       }
-
-       var check3=document.forms["new"]["affiliation"].value;
-       if (check3==null || check3=="")
-       {
-         alert("Affiliation must be filled out");
-	       return false;
-	     }
-	     if (!check3.match(/^[A-Za-z0-9]/))
-	     {
-		     alert("Invalid Characters Entered");
- 	  	   return false;
-       }
-
-       var check4=document.forms["new"]["event"].value;
-       if (check4==null || check4=="")
-       {
-         alert("Event must be filled out");
-	       return false;
-  	   }
-	     if (!check4.match(/^[A-Za-z0-9]/))
-	     {
-	   	   alert("Invalid Characters Entered");
-		     return false;
-       }
-
-       var check5=document.forms["new"]["signature1"].value;
-       if (check5==null || check5=="")
-       {
-         alert("Signature(Left) must be filled out");
-    	   return false;
-	     }
-	     if (!check5.match(/^[A-Za-z]/))
-	     {
-	   	   alert("Numbers not allowed in this field.");
-		     return false;
-       }
-
-       var check6=document.forms["new"]["designation1"].value;
-       if (check6==null || check6=="")
-       {
-         alert("Designation must be filled out");
-	       return false;
-	     }
-	     if (!check6.match(/^[A-Za-z]/))
-	     {
-	   	   alert("Numbers not allowed in this field.");
-	   	   return false;
-       } 
-
-       var check7=document.forms["new"]["signature2"].value;
-       if (check7==null || check7=="")
-       {
-         alert("Signature(Middle) must be filled out");
-	       return false;
-	     }
-	     if (!check7.match(/^[A-Za-z]/))
-	     {
-		     alert("Numbers not allowed in this field.");
-		     return false;
-       }
-
-       var check8=document.forms["new"]["designation2"].value;
-       if (check8==null || check8=="")
-       { 
-         alert("Designation must be filled out");
-	       return false;
-	     }
-	     if (!check8.match(/^[A-Za-z]/))
-	     {
-		     alert("Numbers not allowed in this field.");
-		     return false;
-       }
-
-       var check9=document.forms["new"]["signature3"].value;
-       if (check9==null || check9=="")
-       {
-         alert("Signature(Right) must be filled out");
-	       return false;
-	     }
-	     if (!check9.match(/^[A-Za-z]/))
-	     {
-	   	   alert("Numbers not allowed in this field.");
-		     return false;
-       }
-    
-       var check10=document.forms["new"]["designation3"].value;
-       if (check10==null || check10=="")
-       {
-         alert("Designation must be filled out");
-	       return false;
-     	 }
-	     if (!check10.match(/^[A-Za-z]/))
-	     {
-		     alert("Numbers not allowed in this field.");
-		     return false;
-       }	       
+   function validateForm()
+   {
+     var check1=document.forms["new"]["institute"].value;
+     if (check1==null || check1=="")
+     {
+     	 alert("Institute name must be filled out");
+     	 return false;
+      }
+     if (!check1.match(/^[A-Za-z]/))
+     {
+     	 alert("Numbers not allowed in this field.");
+     	 return false;
      }
+    
+     var check2=document.forms["new"]["status"].value;
+     if (check2==null || check2=="")
+     {
+     	 alert("Status must be filled out");
+	     return false;
+   	 }
+	   if (!check2.match(/^[A-Za-z]/))
+     {
+     	 alert("Numbers not allowed in this field");
+		   return false;
+     }
+
+     var check3=document.forms["new"]["affiliation"].value;
+     if (check3==null || check3=="")
+     {
+       alert("Affiliation must be filled out");
+       return false;
+	   }
+	   if (!check3.match(/^[A-Za-z0-9]/))
+     {
+     	 alert("Invalid Characters Entered");
+ 	     return false;
+     }
+     
+     var check4=document.forms["new"]["event"].value;
+     if (check4==null || check4=="")
+     {
+       alert("Event must be filled out");
+       return false;
+ 	   }
+ 	   if (!check4.match(/^[A-Za-z0-9]/))
+	   {
+  	   alert("Invalid Characters Entered");
+		   return false;
+     }
+
+     var check5=document.forms["new"]["signature1"].value;
+     if (check5==null || check5=="")
+     {
+       alert("Signature(Left) must be filled out");
+       return false;
+	   }
+	   if (!check5.match(/^[A-Za-z]/))
+     {
+     	 alert("Numbers not allowed in this field.");
+		   return false;
+     }
+
+     var check6=document.forms["new"]["designation1"].value;
+     if (check6==null || check6=="")
+     {
+       alert("Designation must be filled out");
+       return false;
+	   }
+	   if (!check6.match(/^[A-Za-z]/))
+     {
+     	 alert("Numbers not allowed in this field.");
+	     return false;
+     } 
+
+     var check7=document.forms["new"]["signature2"].value;
+     if (check7==null || check7=="")
+     {
+       alert("Signature(Middle) must be filled out");
+       return false;
+	   }
+	   if (!check7.match(/^[A-Za-z]/))
+     {
+     	 alert("Numbers not allowed in this field.");
+		   return false;
+     }
+
+     var check8=document.forms["new"]["designation2"].value;
+     if (check8==null || check8=="")
+     { 
+       alert("Designation must be filled out");
+       return false;
+	   }
+	   if (!check8.match(/^[A-Za-z]/))
+     {
+     	 alert("Numbers not allowed in this field.");
+		   return false;
+     }
+
+     var check9=document.forms["new"]["signature3"].value;
+     if (check9==null || check9=="")
+     {
+       alert("Signature(Right) must be filled out");
+       return false;
+	   }
+	   if (!check9.match(/^[A-Za-z]/))
+     {
+     	 alert("Numbers not allowed in this field.");
+		   return false;
+     }
+    
+     var check10=document.forms["new"]["designation3"].value;
+     if (check10==null || check10=="")
+     {
+       alert("Designation must be filled out");
+       return false;
+     }
+	   if (!check10.match(/^[A-Za-z]/))
+     {
+     	 alert("Numbers not allowed in this field.");
+		   return false;
+     }	       
+   }
   </script>
  </head>
  <body>
